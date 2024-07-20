@@ -78,6 +78,17 @@ a:hover {
     text-decoration: underline;
 }
 
+.education {
+    background-color: #fff;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .experience {
     background-color: #fff;
     margin: 20px 0;
@@ -109,24 +120,13 @@ a:hover {
     margin-top: 0;
 }
 
-.education {
-    background-color: #fff;
-    margin: 20px 0;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
 .languages {
     background-color: #fff;
     margin: 20px 0;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 1200px;
+    max-width: 600px;
     margin-left: auto;
     margin-right: auto;
 }
