@@ -105,6 +105,11 @@ a:hover {
     margin-right: auto;
 }
 
+.articles .article-card {
+    display: flex;
+    margin-bottom: 20px;
+}
+
 .experience {
     background-color: #fff;
     margin: 20px 0;
