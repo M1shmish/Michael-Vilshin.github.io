@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Michael Vilshin - CV</title>
     <link rel="stylesheet" href="CSS/styles.css">
-    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" integrity="sha384-d+UOwmNNIC7V4izkTAKSXzWhjC2GxiS9PTykO1XdOPC3nc2z65UOS7SP6QdKPA70" crossorigin="anonymous"></script>
     <script src="Javascript/particles-config.js" defer></script>
+    <script src="Javascript/github-repos.js" defer></script>
 </head>
 <body>
     <div id="particles-js"></div>
@@ -31,45 +32,43 @@
                 <section class="contact-info">
                     <h2>Contact Information</h2>
                     <p>Email: <a href="mailto:michaelvilshin6@gmail.com">michaelvilshin6@gmail.com</a></p>
-                    <p>LinkedIn: <a href="https://www.linkedin.com/in/michael-vilshin-5a1aa9215" target="_blank">michael-vilshin-5a1aa9215</a></p>
+                    <p>LinkedIn: <a href="https://www.linkedin.com/in/michael-vilshin-5a1aa9215" target="_blank" rel="noopener noreferrer">michael-vilshin-5a1aa9215</a></p>
+                    <p>GitHub: <a href="https://github.com/M1shmish" target="_blank" rel="noopener noreferrer">M1shmish</a></p>
                 </section>
 
                 <section class="languages">
                     <h2>Languages</h2>
                     <ul>
-                        <p>Hebrew</p>
-                        <p>English</p>
-                        <p>Russian</p>
+                        <li>Hebrew</li>
+                        <li>English</li>
+                        <li>Russian</li>
                     </ul>
                 </section>
             </div>
             
             <section class="articles">
-    			<h2>Articles</h2>
-    			<div class="articles-grid">
-        			<div class="article-card">
-            			<div class="iframe-wrapper">
-                			<iframe 
-                    			src="https://cardinalops.com/blog/linux-auditing-detection-strategies/"
-                    			title="Article 1"
-                    			loading="lazy">
-                			</iframe>
-            			</div>
-            			<h3>Closing the Gaps in Linux Auditing & Detection Strategies</h3>
-        			</div>
-
-        			<div class="article-card">
-            			<div class="iframe-wrapper">
-                			<iframe 
-                    			src="https://cardinalops.com/blog/complete-guide-to-auditing-object-access-events/" 
-                    			title="Article 2"
-                    			loading="lazy">
-                			</iframe>
-            			</div>
-            			<h3>Complete Guide to Auditing Object Access Events</h3>
-        			</div>
-    			</div>
-			</section
+                <h2>Articles</h2>
+                <div class="articles-grid">
+                    <div class="article-card">
+                        <div class="article-card-header">
+                            <span class="article-label">CardinalOps Blog</span>
+                        </div>
+                        <div class="article-card-body">
+                            <h3>Closing the Gaps in Linux Auditing &amp; Detection Strategies</h3>
+                            <a href="https://cardinalops.com/blog/linux-auditing-detection-strategies/" target="_blank" rel="noopener noreferrer" class="article-link">Read Article &rarr;</a>
+                        </div>
+                    </div>
+                    <div class="article-card">
+                        <div class="article-card-header">
+                            <span class="article-label">CardinalOps Blog</span>
+                        </div>
+                        <div class="article-card-body">
+                            <h3>Complete Guide to Auditing Object Access Events</h3>
+                            <a href="https://cardinalops.com/blog/complete-guide-to-auditing-object-access-events/" target="_blank" rel="noopener noreferrer" class="article-link">Read Article &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <section class="experience">
                 <h2>Experience</h2>
@@ -87,8 +86,8 @@
                     <div class="date">2022 - 2024</div>
                     <div class="job-details">
                         <h3>Cyber Security Engineer and Response Team Member at Experis Cyber</h3>
-                        <p>Performing research on relevant threats, implemen>ng monitoring strategies, and updating strategies both within the organization and in client organiztions as Professional Services.<br>
-							Streamlining and optimizing work processes, seDng up systems, leading professional projects, creating automations, and participating in Pre-Sale meetings as a professional authority.<br>
+                        <p>Performing research on relevant threats, implementing monitoring strategies, and updating strategies both within the organization and in client organizations as Professional Services.<br>
+							Streamlining and optimizing work processes, setting up systems, leading professional projects, creating automations, and participating in Pre-Sale meetings as a professional authority.<br>
 							Providing realtime responses to clients during cyber incidents, analyzing and investigating 'infected' computer systems, analyzing suspicious files,<br>
 							identifying vulnerabilities and penetration methods in client systems, and restoring systems to operational status.<br>
 							Conducting in-depth analysis of malicious files to extract identifiers and discover methods of operation.<br>
@@ -152,7 +151,7 @@
                         </div>
                     </li>
                     <li class="certification-item">
-                        <div class="certification-details" style="max-width: 500px;">
+                        <div class="certification-details certification-details--narrow">
                             <h3>Cyber Security Course at HackerU College</h3>
                             <p>In-depth course on various security topics including organizational security systems,<br>
                                 resilience testing of websites, Android devices, and organizational infrastructure, automation with Python, and working in Linux and Microsoft environments</p>
@@ -160,9 +159,15 @@
                     </li>
                 </ul>
             </section>
+            <section class="github-repos">
+                <h2>GitHub Projects</h2>
+                <div id="repos-grid" class="repos-grid">
+                    <p class="repos-loading">Loading repositories...</p>
+                </div>
+            </section>
         </div>
     </div>
-    
+
     <footer>
         <div class="footer-item">SIEM – Implementing rules, views, queries, reports, and more in the ‘QRadar’ system in various configurations and deployment types. Experience in monitoring and working with ‘Splunk’ systems.</div>
         <div class="footer-item">Python - Experience in programming with python.</div>
